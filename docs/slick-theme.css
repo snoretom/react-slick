@@ -70,11 +70,17 @@
     font-size: 20px;
     line-height: 1;
 
-    opacity: .75;
-    color: white;
+    opacity: 1;
+    
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    width: 0.4em;
+    height: 0.4em;
+    border-right: 0.2em solid black;
+    border-top: 0.2em solid black;
+    transform: rotate(45deg);
+
 }
 
 .slick-prev
