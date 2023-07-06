@@ -77,10 +77,15 @@
     -moz-osx-font-smoothing: grayscale;
     width: 0.4em;
     height: 0.4em;
-    border-right: 0.2em solid black;
-    border-top: 0.2em solid black;
+    border-right: 0.2em solid #000000;
+    border-top: 0.2em solid #000000;
     transform: rotate(45deg);
 
+}
+.slick-prev:before:hover,
+.slick-next:before:hover{
+    border-right: 0.2em solid black;
+    border-top: 0.2em solid black;
 }
 
 .slick-prev
